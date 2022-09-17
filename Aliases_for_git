@@ -1,0 +1,7 @@
+# add this to .gitconfig
+
+[alias]
+	cp = cherry-pick
+	st = status --short
+	d = diff
+	c = commit
