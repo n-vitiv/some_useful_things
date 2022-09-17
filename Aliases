@@ -1,0 +1,11 @@
+# add this to .bashrc
+
+alias q='cd ../'
+alias qq='cd ../../'
+alias qqq='cd ../../../'
+alias qqqq='cd ../../../../'
+alias qqqqq='cd ../../../../../'
+alias qqqqqq='cd ../../../../../../'
+alias j='grep -nr'
+alias f='find -name'
+alias gitl='git log --oneline --graph --decorate --abbrev=10 --date="format-local:%Y-%m-%d %H:%M" --pretty="%C(auto)%h %C(auto,#888888)%ad%C(auto,reset)%C(auto) %s %C(auto,#666666)[%an]%C(auto,reset)%C(auto)%d"'
