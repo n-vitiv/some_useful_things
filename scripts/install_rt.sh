@@ -5,9 +5,9 @@
 PATH_TO_SRC=$(find -name rt.c)
 
 compile() {
-    gcc c++_files/rt.c -o rt
-    chown root:root rt
+    gcc $PATH_TO_SRC -o rt
     cp rt /usr/bin
+    chown root:root /usr/bin/rt
     chmod +s /usr/bin/rt
     rm rt
 }
